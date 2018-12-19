@@ -13,18 +13,16 @@ let options = {
 }
 // Text + chalk definitions
 let data = {
-  'name': chalk.white('Mikeal Rogers /'),
-  'handle': chalk.cyan('mikeal'),
-  'work': chalk.white('Doing many things at Protocol Labs'),
-  'twitter': chalk.cyan('https://twitter.com/mikeal'),
-  'github': chalk.cyan('https://github.com/mikeal'),
-  'linkedin': chalk.cyan('https://linkedin.com/in/mikealrogers'),
-  'web': chalk.cyan('https://www.mikealrogers.com'),
-  'npx': chalk.white('npx mikeal'),
+  'name': chalk.white('Edward Kim /'),
+  'handle': chalk.cyan('taesup'),
+  'work': chalk.white('Sofware Engineer'),
+  'twitter': chalk.cyan('https://twitter.com/taesup'),
+  'github': chalk.cyan('https://github.com/taesup'),
+  'web': chalk.cyan('https://www.taesup.com'),
+  'npx': chalk.white('npx taesup'),
   'labelWork': chalk.white.bold('      Work:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),
-  'labelLinkedIn': chalk.white.bold('  LinkedIn:'),
   'labelWeb': chalk.white.bold('       Web:'),
   'labelCard': chalk.white.bold('      Card:')
 }
@@ -35,11 +33,10 @@ var heading = `${data.name} ${data.handle}`
 var working = `${data.labelWork}  ${data.work}`
 var twittering = `${data.labelTwitter}  ${data.twitter}`
 var githubing = `${data.labelGitHub}  ${data.github}`
-var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 var webing = `${data.labelWeb}  ${data.web}`
 var carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-let output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+let output = heading + newline + newline + working + newline + twittering + newline + githubing  + newline + webing + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))

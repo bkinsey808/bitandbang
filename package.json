@@ -1,14 +1,14 @@
 {
-  "name": "mikeal",
+  "name": "taesup",
   "version": "1.1.1",
-  "description": "A personal card for Mikeal Rogers (@mikeal)",
+  "description": "A personal card for Edward Kim (@taesup)",
   "main": "index.js",
   "bin": {
-    "mikeal": "./bin/card.js"
+    "taesup": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikeal/bitandbang.git"
+    "url": "git+https://github.com/taesup/bitandbang.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,8 +24,8 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/mikeal/bitandbang/issues"
+    "url": "https://github.com/taesup/bitandbang/issues"
   },
-  "homepage": "https://github.com/mikeal/bitandbang#readme",
-  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)"
+  "homepage": "https://github.com/taesup/bitandbang#readme",
+  "author": "Edward Kim"
 }
