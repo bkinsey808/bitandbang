@@ -1,14 +1,13 @@
 {
-  "name": "taesup",
-  "version": "1.1.1",
-  "description": "A personal card for Edward Kim (@taesup)",
-  "main": "index.js",
+  "name": "bkinsey808",
+  "version": "1.0.0",
+  "description": "A personal card for Ben Kinsey (@bkinsey808)",
   "bin": {
-    "taesup": "./bin/card.js"
+    "bkinsey808": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taesup/bitandbang.git"
+    "url": "git+https://github.com/bkinsey808/bitandbang.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,8 +23,8 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/taesup/bitandbang/issues"
+    "url": "https://github.com/bkinsey808/bitandbang/issues"
   },
-  "homepage": "https://github.com/taesup/bitandbang#readme",
+  "homepage": "https://github.com/bkinsey808/bitandbang#readme",
   "author": "Edward Kim"
 }

@@ -2,41 +2,38 @@
 // 👆 Used to tell Node.js that this is a CLI tool
 
 // Pull in our modules
-var chalk = require('chalk')
-var boxen = require('boxen')
+const chalk = require('chalk')
+const boxen = require('boxen')
 
 // Define options for Boxen
-let options = {
+const options = {
   padding: 1,
   margin: 1,
   borderStyle: 'round'
 }
 // Text + chalk definitions
-let data = {
-  'name': chalk.white('Edward Kim /'),
-  'handle': chalk.cyan('taesup'),
+const data = {
+  'name': chalk.white('Ben Kinsey /'),
+  'handle': chalk.cyan('bkinsey808'),
   'work': chalk.white('Sofware Engineer'),
-  'twitter': chalk.cyan('https://twitter.com/taesup'),
-  'github': chalk.cyan('https://github.com/taesup'),
-  'web': chalk.cyan('https://www.taesup.com'),
-  'npx': chalk.white('npx taesup'),
+  'twitter': chalk.cyan('https://twitter.com/bkinsey808'),
+  'github': chalk.cyan('https://github.com/bkinsey808'),
+  'npx': chalk.white('npx bkinsey808'),
   'labelWork': chalk.white.bold('      Work:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),
-  'labelWeb': chalk.white.bold('       Web:'),
   'labelCard': chalk.white.bold('      Card:')
 }
 
 // Actual strings we're going to output
-var newline = '\n'
-var heading = `${data.name} ${data.handle}`
-var working = `${data.labelWork}  ${data.work}`
-var twittering = `${data.labelTwitter}  ${data.twitter}`
-var githubing = `${data.labelGitHub}  ${data.github}`
-var webing = `${data.labelWeb}  ${data.web}`
-var carding = `${data.labelCard}  ${data.npx}`
+const newline = '\n'
+const heading = `${data.name} ${data.handle}`
+const working = `${data.labelWork}  ${data.work}`
+const twittering = `${data.labelTwitter}  ${data.twitter}`
+const githubing = `${data.labelGitHub}  ${data.github}`
+const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-let output = heading + newline + newline + working + newline + twittering + newline + githubing  + newline + webing + newline + newline + carding
+const output = heading + newline + newline + working + newline + twittering + newline + githubing  + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))
